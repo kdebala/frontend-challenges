@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #333;
+  background-color: aliceblue;
+}
+
+.container {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.title {
+  margin: 0.5rem;
+}
+.guessNumber {
+  width: 8rem;
+  margin: 0.5rem;
+}
+.buttons {
+  margin: 0.5rem;
+}
