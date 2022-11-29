@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+.everything {
+  text-align: center;
+}
+
+.myList {
+  margin: 0;
+  padding: 0;
+}
+
+.listEl {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  width: 50%;
+  font-size: 0.7rem;
+  border-style: solid 1px;
+  margin-bottom: 1rem;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+ul li {
+  background: #eee;
+  cursor: pointer;
+  width: 50%;
+  list-style: none;
+  padding: 0.2rem 0.1rem;
+  font-size: 0.5rem;
+  transition: 0.2s;
+  display: flex;
+  justify-content: left;
+  margin: auto;
+}
+
+/* to set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+ul li:hover {
+  background: #ddd;
+}

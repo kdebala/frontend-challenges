@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(197, 196, 196);
+}
+
+.container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: auto;
+}
+
+.scores {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 0.5rem 1rem;
+}
+
+.score {
+  min-height: 1.5rem;
+  font-size: 12px;
+  justify-self: left;
+}
+
+.highscore {
+  font-size: 12px;
+  grid-column: 1;
+  grid-row: 2;
+  justify-self: left;
+}
+
+.color {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  margin: 0.5rem auto;
+  width: 5rem;
+  height: 5rem;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.buttons {
+  margin: 1rem auto;
+  display: flex;
+  gap: 1rem;
+}
+
+.newGame {
+  height: 1.3rem;
+  grid-column: 3;
+  grid-row: 1;
+  width: 5rem;
+  justify-self: right;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.guess1,
+.guess2,
+.guess3 {
+  width: 3rem;
+  margin: auto;
+  cursor: pointer;
+  font-size: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.info {
+  font-size: 10px;
+}
