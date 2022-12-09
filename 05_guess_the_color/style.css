@@ -9,6 +9,7 @@ body {
 }
 
 .container {
+ 
   display: flex;
   text-align: center;
   justify-content: center;
@@ -20,17 +21,17 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  margin: 0.5rem 1rem;
+  margin: 2rem 15rem 3rem 15rem;
 }
 
 .score {
   min-height: 1.5rem;
-  font-size: 12px;
+  font-size: 2rem;
   justify-self: left;
 }
 
 .highscore {
-  font-size: 12px;
+  font-size: 2rem;
   grid-column: 1;
   grid-row: 2;
   justify-self: left;
@@ -42,37 +43,41 @@ body {
 
   align-items: center;
   margin: 0.5rem auto;
-  width: 5rem;
-  height: 5rem;
+  width: 17rem;
+  height: 17rem;
   border: 1px solid black;
   border-radius: 50%;
 }
 
 .buttons {
-  margin: 1rem auto;
+  margin: 5rem auto;
   display: flex;
-  gap: 1rem;
+  align-items: center;
+  gap: 4rem;
+padding-top: 2rem;
 }
 
 .newGame {
-  height: 1.3rem;
+  width: 12rem;
+  height: 5rem;
   grid-column: 3;
   grid-row: 1;
-  width: 5rem;
   justify-self: right;
   cursor: pointer;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+ font-size: 2rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 .guess1,
 .guess2,
 .guess3 {
-  width: 3rem;
+  width: 8rem;
+  height: 3rem;
   margin: auto;
   cursor: pointer;
-  font-size: 10px;
+  font-size: 1.5rem;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 .info {
-  font-size: 10px;
+  font-size: 2rem;
 }

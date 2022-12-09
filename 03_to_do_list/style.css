@@ -1,9 +1,17 @@
 * {
   box-sizing: border-box;
+  
 }
+
 
 .everything {
   text-align: center;
+  width: 70%;
+  
+}
+
+h1 {
+ margin: 3rem auto; 
 }
 
 .myList {
@@ -18,22 +26,24 @@
 
 input {
   width: 50%;
-  font-size: 0.7rem;
+  height: 3rem;
+  font-size: 1.5rem;
   border-style: solid 1px;
   margin-bottom: 1rem;
   display: flex;
   text-align: center;
   margin: auto;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
 ul li {
   background: #eee;
   cursor: pointer;
   width: 50%;
+  height: 5rem;
   list-style: none;
   padding: 0.2rem 0.1rem;
-  font-size: 0.5rem;
+  font-size: 1.5rem;
   transition: 0.2s;
   display: flex;
   justify-content: left;
@@ -47,4 +57,10 @@ ul li:nth-child(odd) {
 
 ul li:hover {
   background: #ddd;
+}
+
+.close{
+  height: 4.8rem;
+  width: 4.8rem;
+
 }

@@ -7,17 +7,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 10vh;
+  min-height: 20vh;
   background-color: #eee;
   gap: 0.5rem;
   padding: 1rem;
+  
 }
 
 .input-box {
   border: 2px solid #ccc;
   border-radius: 5px;
   padding: 5px;
-  font-size: 12px;
+  font-size: 2rem;
+  height: 4rem;
+  width: 30%;
 }
 
 .add-btn {
@@ -27,6 +30,8 @@
   color: rgb(90, 88, 88);
   background-color: rgb(219, 217, 217);
   cursor: pointer;
+  height: 4rem;
+  width: 4rem;
 }
 
 .add-btn:hover {
@@ -37,39 +42,46 @@
 .container {
   display: flex;
   justify-content: center;
-  margin: 0.5rem;
-  gap: 1rem;
+  margin: 2rem;
+  gap: 2rem;
 }
 
 section {
-  width: 10rem;
-  /* height: 10rem; */
+  width: 30rem;
+ min-height: 50vh;
   border: 2px solid #ccc;
   color: grey;
   background-color: rgb(245, 243, 243);
   display: flex;
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   gap: 1rem;
+  
 }
 
 ul li {
   display: flex;
   list-style: none;
-  font-size: 0.7rem;
-  padding: 2px;
-  gap: 5px;
+  font-size: 2.5rem;
+  padding: 0.5rem;
+  gap: 1rem;
+ align-items: center;
 }
 
 .controls {
-  max-width: 3rem;
+  max-width: 8rem;
   align-items: center;
   display: flex;
   flex-direction: column;
 }
 
 .btn {
-  width: 1.2rem;
-  height: 1.2rem;
+  width: 4rem;
+  height: 4rem;
+}
+
+input {
+height: 3rem;
+width: 3rem;
 }
